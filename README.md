@@ -14,7 +14,7 @@ To complete this task, Terraform and Azure CLI must be installed and configured 
 - Inside the `modules/resource_group_storage` directory, create the following files:
     * `main.tf`: define the resources.
     * `variables.tf`: define the variables.
-    * `outputs.tf`: define the outputs.
+    * `outputs.tf`: define the outputs .
 
 **3. Publish the Module on GitHub**
 

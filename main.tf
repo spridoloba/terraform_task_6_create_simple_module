@@ -12,7 +12,8 @@ provider "azurerm" {
 }
 
 module "resource_group_storage" {
-  source = "git::https://github.com/spridoloba/terraform-azurerm-resource_group_storage.git?ref=v1.0.0"
+  source  = "spridoloba/resource-group-storage/azurerm"
+  version = "v1.0.4"
 
   resource_group_name  = "my-resource-group"
   location             = "East US"
