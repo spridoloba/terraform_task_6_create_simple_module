@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 module "resource_group_storage" {
-  source = "./modules/resource_group_storage"
+  source = "git::https://github.com/spridoloba/terraform-azurerm-resource_group_storage.git?ref=v1.0.0"
 
   resource_group_name  = "my-resource-group"
   location             = "East US"
